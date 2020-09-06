@@ -1,0 +1,27 @@
+.header{
+  display:flex;
+  align-items: center;
+  background: #3f5d9a;
+  height: 83px;
+  overflow:hidden;
+}
+
+.header_logo{
+  height:78px;
+  object-fit: contain;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+@media(max-width:600px){
+  .header{
+    height: 40px;
+    justify-content: center;
+    width: 100%
+  }
+  .header_logo{
+    height: 40px;
+    text-align: center;
+    margin: 0
+  }
+}

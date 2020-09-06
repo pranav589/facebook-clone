@@ -1,0 +1,179 @@
+.register{
+  background: #e9ebee;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden
+}
+
+.register_container{
+  width:612px;
+  height:372px;
+  display:flex;
+  padding: 20px;
+  background: #e9ebee;
+  flex-direction: column
+}
+
+.register_container >h1{
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center
+}
+
+.register_container>h3{
+  font-weight: 300;
+  color:black;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 107px
+}
+
+.register_container>form>center>input{
+  height: 33px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: white;
+  width:396px;
+  border:0.5px solid gray
+}
+
+.register_container>form>center>input::-webkit-input-placeholder{
+font-size: 22px;
+color:rgb(170,170,170);
+padding-left: 10px;
+padding-top: 40px;
+}
+
+.register_button{
+  background: #5e994b;
+
+  width:196px;
+  height:38px;
+  border-radius: 3px;
+  border:1px solid rgb(59,118,34);
+  color:white;
+  font-size: 17px;
+  font-weight: 700
+}
+
+.register_name{
+  height:36px !important;
+  margin-bottom: 10px;
+  background: white;
+  width:193px !important;
+  border:0.5px solid gray;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.register_gender{
+  display:flex;
+  color:rgb(144,148,156);
+  margin-left: 110px;
+}
+
+.register_container>form>.register_radioContainer>label{
+margin-top:10px;
+margin-bottom: 10px;
+margin-right: 30px;
+font-size: 10px;
+margin-left: 6px
+}
+
+.register_container>form>.register_radioContainer{
+  margin-left: 110px;
+  margin-top:10px;
+  margin-bottom: 20px
+}
+
+.register_policy{
+  font-size: 11px;
+  line-height: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#777;
+  font-weight: 400;
+  max-width: 300px;
+  margin-left: 110px;
+  margin-bottom: 20px
+}
+
+.register_policy span{
+  color:rgb(56,148,207)
+}
+
+@media(max-width:600px){
+  .register_container{
+  width:100%;
+  height:100vh;
+  display:flex;
+  padding: 20px;
+  background: #e9ebee;
+  flex-direction: column
+}
+
+.register_container >h1{
+  font-weight: 550;
+  font-size: 25px;
+  margin-bottom: 6px;
+  text-align: center
+}
+
+.register_container>h3{
+  font-weight: 200;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 10px !important;
+  margin: 0;
+  text-align: center
+}
+
+.register_container>form>center>input{
+  height: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: white;
+  width:80%;
+  border:0.5px solid gray
+}
+
+.register_container>form>center>input::-webkit-input-placeholder{
+font-size: 18px;
+color:rgb(170,170,170);
+padding-left: 10px
+}
+
+.register_name{
+  height:25px !important;
+  margin-bottom: 10px;
+  background: white;
+  width:80% !important;
+  border:0.5px solid gray;
+  }
+
+.register_gender{
+  display:flex;
+  color:rgb(144,148,156);
+  margin-left: 10%
+}
+
+.register_container>form>.register_radioContainer{
+  margin-left: 10%;
+  margin-top:10px;
+  margin-bottom: 20px
+}
+
+.register_policy{
+  font-size: 11px;
+  line-height: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#777;
+  font-weight: 400;
+  max-width: 290px;
+  margin-left: 10%;
+  margin-bottom: 20px
+}
+
+}

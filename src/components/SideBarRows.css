@@ -1,0 +1,53 @@
+.sideBarRow{
+  display: flex;
+  align-items: center;
+  width: 90%
+}
+
+.sideBarRow_icon{
+  height: 20px;
+  margin:5px 5px 0 5px;
+}
+
+.sideBarRow_title{
+  flex: 1;
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 7px
+}
+
+.sideBarRow_title.avatar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 550;
+}
+
+.avatar{
+  margin-bottom: 10px
+}
+
+.sideBarRow_icon.avatar{
+  border-radius: 20px !important;
+  margin-top: 10px;
+  height: 25px !important
+}
+
+.colorwrap{
+  border-radius: 70px;
+  display: flex;
+  flex-direction: row ;
+  width:200px;
+  margin-top: 5px;
+  border: 1px solid rgba(25,255,25,0)
+}
+
+.colorwrap:hover{
+background: #f5f6f7;
+display: flex;
+width: 200px;
+cursor: pointer;
+border: 1px solid rgba(199,199,199,0.56)
+}

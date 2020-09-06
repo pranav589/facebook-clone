@@ -1,0 +1,10 @@
+@media(max-width:600px){
+  .posts{
+    
+    width: 100%;
+    position: relative;
+    left: auto;
+    right: auto
+  }
+}
+  

@@ -1,0 +1,16 @@
+*{
+  margin:0;
+}
+
+body{
+  background: #e9e9eb;
+}
+
+.app_page{
+  display: flex;
+}
+
+.app_posts{
+  display: flex;
+  justify-content: center
+}

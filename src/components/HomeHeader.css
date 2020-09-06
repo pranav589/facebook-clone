@@ -1,0 +1,143 @@
+.homeHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  height:40px;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  background: rgb(66,103,178);
+  overflow:hidden
+}
+
+.homeHeader_logo{
+  object-fit: contain;
+  height: 35px;
+  margin-top: 4.3px;
+  margin-left: 4.3px
+}
+
+.homeHeader_search{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  float: left
+}
+
+.homeHeader>.homeHeader_search>input{
+  width: 400px;
+  height: 19px;
+  margin-left: -5%
+}
+
+.homeHeader_input>input{
+  flex: 1;
+  border: none
+}
+
+section .homeHeader_avatar{
+  height: 30px !important;
+  width: 30px !important;
+  margin-right: 8px;
+}
+
+.homeHeader_icons section{
+display: flex;
+align-items: center;
+}
+.homeHeader_icons{
+  display: flex;
+  align-items: center;
+}
+
+.homeHeader_name,.button{
+  display: flex;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px
+}
+
+.homeHeader_dash{
+  margin-right: 4px;
+  margin-left: 5px;
+  opacity: 0.1
+}
+
+.homeHeader section:hover{
+background: #144097;
+cursor: pointer
+}
+
+.homeHeader section{
+  transition: 0.2s
+}
+
+.homeHeader section button{
+  margin-right: 4px;
+  margin-left: 5px;
+  background: transparent;
+  border: none;
+  transition: 0.2s
+}
+
+
+.homeHeader section button:hover{
+  background: #144097;
+  cursor: pointer
+}
+
+@media(max-width:600px){
+  .homeHeader{
+    width: 100%;
+    max-width: 400px
+  }
+  .homeHeader_logo{
+  object-fit: contain;
+  max-width: 400px;
+  height: 30px;
+  margin-top: 4.3px;
+  margin-left: 3.5px
+}
+
+.homeHeader_name{
+  display: none
+}
+
+.homeHeader_name>h3{
+ display: none
+}
+.homeHeader_dash{
+ display: none
+}
+
+section .homeHeader_avatar{
+  display: none
+}
+
+.homeHeader_search{
+  display: flex;
+  align-items: center;
+  width: 68%;
+  float: left
+}
+
+
+.homeHeader>.homeHeader_search>input{
+  width:400px ;
+  height: 16px;
+  margin-left: 5px
+}
+
+.button{
+  visibility: visible;
+  margin-left: 0;
+  padding-right: 20px;
+  margin-right: 0;
+  font-weight: 550;
+  line-height: 12
+}
+}
