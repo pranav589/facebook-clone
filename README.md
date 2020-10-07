@@ -1,3 +1,3 @@
-# react-mtabsp
+#Facebook Clone
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-mtabsp)
+I've developed this facebook clone using React for the frontend as well as with firebase. It has the authentication system,like ,comments and posting feature.
